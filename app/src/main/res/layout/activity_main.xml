@@ -115,6 +115,18 @@
                                     tools:layout_editor_absoluteX="12dp"
                                     tools:layout_editor_absoluteY="32dp" />
 
+                                <Button
+                                    android:id="@+id/hidden_button"
+                                    android:layout_width="0dp"
+                                    android:layout_height="0dp"
+                                    android:focusable="true"
+                                    android:focusableInTouchMode="true"
+                                    android:importantForAccessibility="no"
+                                    android:visibility="invisible"
+                                    app:layout_constraintBottom_toBottomOf="@+id/imageView1"
+                                    app:layout_constraintEnd_toEndOf="@+id/imageView1"
+                                    app:layout_constraintStart_toStartOf="@+id/imageView1"
+                                    app:layout_constraintTop_toTopOf="@+id/imageView1" />
                                 <TextView
                                     android:id="@+id/textView33"
                                     android:layout_width="wrap_content"
@@ -446,6 +458,19 @@
                                 tools:layout_editor_absoluteX="11dp"
                                 tools:layout_editor_absoluteY="30dp"
                                 tools:ignore="MissingConstraints" />
+
+                            <Button
+                                android:id="@+id/hidden_buttonn"
+                                android:layout_width="0dp"
+                                android:layout_height="0dp"
+                                android:focusable="true"
+                                android:focusableInTouchMode="true"
+                                android:importantForAccessibility="no"
+                                android:visibility="invisible"
+                                app:layout_constraintBottom_toBottomOf="@+id/imageView5"
+                                app:layout_constraintEnd_toEndOf="@+id/imageView5"
+                                app:layout_constraintStart_toStartOf="@+id/imageView5"
+                                app:layout_constraintTop_toTopOf="@+id/imageView5" />
 
                             <TextView
                                 android:id="@+id/textView88"
