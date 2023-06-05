@@ -315,7 +315,8 @@
 
                         app:srcCompat="@drawable/button_ovil"
                         tools:layout_editor_absoluteX="20dp"
-                        tools:layout_editor_absoluteY="35dp" />
+                        tools:layout_editor_absoluteY="35dp"
+                        tools:ignore="MissingConstraints" />
 
                     <ImageView
                         android:id="@+id/imageView78"
