@@ -116,7 +116,7 @@
                                     tools:layout_editor_absoluteY="32dp" />
 
                                 <Button
-                                    android:id="@+id/hidden_button"
+                                    android:id="@+id/hidden_button_mokhaberat"
                                     android:layout_width="0dp"
                                     android:layout_height="0dp"
                                     android:focusable="true"
@@ -461,7 +461,7 @@
                                 tools:ignore="MissingConstraints" />
 
                             <Button
-                                android:id="@+id/hidden_buttonn"
+                                android:id="@+id/hidden_button_simcard"
                                 android:layout_width="0dp"
                                 android:layout_height="0dp"
                                 android:focusable="true"

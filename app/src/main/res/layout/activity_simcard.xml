@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#212D47"
-    tools:context=".Mokhaberat_Activity" >
+    tools:context=".simcard" >
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="415dp"
@@ -15,7 +15,7 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView91">
+        >
 
         <TextView
             android:id="@+id/textView14"
@@ -28,7 +28,18 @@
             android:textStyle="bold"
             tools:layout_editor_absoluteX="264dp"
             tools:layout_editor_absoluteY="16dp" />
-
+        <Button
+            android:id="@+id/hidden_button_irancle"
+            android:layout_width="212dp"
+            android:layout_height="70dp"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:importantForAccessibility="no"
+            android:visibility="invisible"
+            app:layout_constraintBottom_toBottomOf="@+id/imageView24"
+            app:layout_constraintEnd_toEndOf="@+id/imageView24"
+            app:layout_constraintStart_toStartOf="@+id/imageView24"
+            app:layout_constraintTop_toTopOf="@+id/imageView24" />
         <ImageView
             android:id="@+id/imageView24"
             android:layout_width="233dp"
@@ -45,6 +56,30 @@
             tools:layout_editor_absoluteX="156dp"
             tools:layout_editor_absoluteY="175dp" />
 
+        <Button
+            android:id="@+id/hidden_button_hamrah"
+            android:layout_width="212dp"
+            android:layout_height="70dp"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:importantForAccessibility="no"
+            android:visibility="invisible"
+            app:layout_constraintBottom_toBottomOf="@+id/imageView27"
+            app:layout_constraintEnd_toEndOf="@+id/imageView30"
+            app:layout_constraintStart_toStartOf="@+id/imageView27"
+            app:layout_constraintTop_toTopOf="@+id/imageView27" />
+        <Button
+            android:id="@+id/hidden_button_raitel"
+            android:layout_width="212dp"
+            android:layout_height="70dp"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:importantForAccessibility="no"
+            android:visibility="invisible"
+            app:layout_constraintBottom_toBottomOf="@+id/imageView28"
+            app:layout_constraintEnd_toEndOf="@+id/imageView28"
+            app:layout_constraintStart_toStartOf="@+id/imageView28"
+            app:layout_constraintTop_toTopOf="@+id/imageView28" />
         <ImageView
             android:id="@+id/imageView28"
             android:layout_width="233dp"
@@ -118,8 +153,8 @@
             android:layout_width="137dp"
             android:layout_height="262dp"
             app:srcCompat="@drawable/tgfuyh"
-            tools:layout_editor_absoluteX="16dp"
-            tools:layout_editor_absoluteY="190dp" />
+            tools:layout_editor_absoluteX="19dp"
+            tools:layout_editor_absoluteY="200dp" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 
@@ -154,7 +189,18 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
-
+    <Button
+        android:id="@+id/hidden_button_back"
+        android:layout_width="93dp"
+        android:layout_height="62dp"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:importantForAccessibility="no"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView21"
+        app:layout_constraintEnd_toEndOf="@+id/imageView21"
+        app:layout_constraintStart_toStartOf="@+id/imageView21"
+        app:layout_constraintTop_toTopOf="@+id/imageView21" />
     <ImageView
         android:id="@+id/imageView21"
         android:layout_width="37dp"
