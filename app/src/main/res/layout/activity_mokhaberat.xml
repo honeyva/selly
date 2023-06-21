@@ -8,6 +8,7 @@
     tools:context=".Mokhaberat_Activity" >
 
   <androidx.constraintlayout.widget.ConstraintLayout
+      android:id="@+id/constraintLayout3"
       android:layout_width="match_parent"
       android:layout_height="0dp"
       android:layout_marginTop="100dp"
@@ -68,11 +69,25 @@
         android:hint="0 2 1 _   _   _   _   _   _   _   _ "
         android:padding="16dp"
         android:paddingStart="16dp"
+        android:textSize="20dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         tools:ignore="MissingConstraints"
-        android:textSize="20dp"
         tools:layout_editor_absoluteY="117dp" />
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/animation"
+        android:layout_width="248dp"
+        android:layout_height="295dp"
+        android:gravity="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.673"
+        app:lottie_autoPlay="true"
+        app:lottie_fileName="lf20_ip5whBLzkg.json"
+        app:lottie_loop="true" />
   </androidx.constraintlayout.widget.ConstraintLayout>
 
   <TextView

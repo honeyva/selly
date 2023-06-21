@@ -272,8 +272,10 @@
             android:layout_height="0dp"
             app:layout_constraintBottom_toBottomOf="@+id/jjjj"
             app:layout_constraintEnd_toEndOf="@+id/jjjj"
+            app:layout_constraintHorizontal_bias="1.0"
             app:layout_constraintStart_toStartOf="@+id/jjjj"
-            app:layout_constraintTop_toTopOf="@+id/jjjj" />
+            app:layout_constraintTop_toTopOf="@+id/jjjj"
+            app:layout_constraintVertical_bias="0.0" />
 
         <TextView
             android:id="@+id/p_m"
@@ -313,7 +315,7 @@
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="@+id/imageView7"
         app:layout_constraintTop_toTopOf="@+id/imageView7"
-        app:layout_constraintVertical_bias="1.0" />
+        app:layout_constraintVertical_bias="0.0" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -13,23 +13,22 @@
         android:theme="@style/Theme.Selly"
         tools:targetApi="31">
         <activity
+            android:name=".Mokhaberat_Activity"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".simcard"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
             android:name=".Mokhaberat2_Activity"
-            android:exported="false">
-            <meta-data
-                android:name="android.app.lib_name"
-                android:value="" />
-        </activity>
-        <activity
-            android:name=".Simcart_Activity"
-            android:exported="false">
-            <meta-data
-                android:name="android.app.lib_name"
-                android:value="" />
-        </activity>
-        <activity
-            android:name=".first"
             android:exported="false"
-            android:label="@string/title_activity_first"
             android:theme="@style/Theme.Selly" />
         <activity
             android:name=".MainActivity"

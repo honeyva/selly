@@ -15,20 +15,9 @@
         android:background="@drawable/button_background"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent">
 
-<!--                <Button-->
-<!--                    android:id="@+id/hidden_button_irancle"-->
-<!--                    android:layout_width="212dp"-->
-<!--                    android:layout_height="70dp"-->
-<!--                    android:focusable="true"-->
-<!--                    android:focusableInTouchMode="true"-->
-<!--                    android:importantForAccessibility="no"-->
-<!--                    android:visibility="invisible"-->
-<!--                    app:layout_constraintBottom_toBottomOf="@+id/imageView24"-->
-<!--                    app:layout_constraintEnd_toEndOf="@+id/imageView24"-->
-<!--                    app:layout_constraintStart_toStartOf="@+id/imageView24"-->
-<!--                    app:layout_constraintTop_toTopOf="@+id/imageView24" />-->
 
         <TextView
             android:id="@+id/textView14"
@@ -45,48 +34,12 @@
             tools:layout_editor_absoluteY="16dp" />
 
 
-
-            <!--        <Button-->
-            <!--            android:id="@+id/hidden_button_hamrah"-->
-            <!--            android:layout_width="212dp"-->
-            <!--            android:layout_height="70dp"-->
-            <!--            android:focusable="true"-->
-            <!--            android:focusableInTouchMode="true"-->
-            <!--            android:importantForAccessibility="no"-->
-            <!--            android:visibility="invisible"-->
-            <!--            app:layout_constraintBottom_toBottomOf="@+id/imageView27"-->
-            <!--            app:layout_constraintEnd_toEndOf="@+id/imageView30"-->
-            <!--            app:layout_constraintStart_toStartOf="@+id/imageView27"-->
-            <!--            app:layout_constraintTop_toTopOf="@+id/imageView27" />-->
-            <!--        <Button-->
-            <!--            android:id="@+id/hidden_button_raitel"-->
-            <!--            android:layout_width="212dp"-->
-            <!--            android:layout_height="70dp"-->
-            <!--            android:focusable="true"-->
-            <!--            android:focusableInTouchMode="true"-->
-            <!--            android:importantForAccessibility="no"-->
-            <!--            android:visibility="invisible"-->
-            <!--            app:layout_constraintBottom_toBottomOf="@+id/imageView28"-->
-            <!--            app:layout_constraintEnd_toEndOf="@+id/imageView28"-->
-            <!--            app:layout_constraintStart_toStartOf="@+id/imageView28"-->
-            <!--            app:layout_constraintTop_toTopOf="@+id/imageView28" />-->
-
-
-
-
-
-
-
-
-
-
-
-
         <EditText
-            android:id="@+id/ed"
+            android:id="@+id/editTextma"
             android:layout_width="359dp"
             android:layout_height="58dp"
             android:layout_margin="20dp"
+            android:layout_marginTop="20dp"
             android:background="@drawable/car_background"
             android:drawableStart="@drawable/hhhi"
             android:hint="50000 ریال"
@@ -94,91 +47,86 @@
             android:paddingStart="16dp"
             android:textSize="20dp"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.285"
+            app:layout_constraintHorizontal_bias="0.714"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/textView14"
             tools:ignore="MissingConstraints" />
 
+        <RadioGroup
+            android:id="@+id/radioGroup"
+            android:layout_width="191dp"
+            android:layout_height="175dp"
+            android:layoutDirection="rtl"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="@+id/imageView31"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/textView14"
+            app:layout_constraintVertical_bias="0.59">
 
-    <RadioGroup
-        android:id="@+id/r_group"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"></RadioGroup>
-        <RadioButton
-            android:id="@+id/irancle"
-            android:layout_width="233dp"
-            android:layout_height="83dp"
-            app:srcCompat="@drawable/button_background_m"
-            tools:layout_editor_absoluteX="161dp"
-            tools:layout_editor_absoluteY="144dp" />
-        <ImageView
-            android:id="@+id/imageView26"
-            android:layout_width="70dp"
-            android:layout_height="70dp"
-            app:srcCompat="@drawable/mumu"
-            tools:layout_editor_absoluteX="301dp"
-            tools:layout_editor_absoluteY="157dp" />
+            <RadioButton
+                android:id="@+id/rigtel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="رایتل"
+                android:textColor="#14E9F7"
+                android:textSize="26dp"
+                android:textStyle="bold" />
 
-        <TextView
-            android:id="@+id/textView16"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:padding="10dp"
-            android:text="ایرانسل"
-            android:textColor="#14E9F7"
-            android:textSize="20dp"
-            android:textStyle="bold"
-            tools:layout_editor_absoluteX="168dp"
-            tools:layout_editor_absoluteY="162dp" />
-        <RadioButton
-            android:id="@+id/hamrah"
-            android:layout_width="233dp"
-            android:layout_height="83dp"
-            app:srcCompat="@drawable/button_background_m"
-            tools:layout_editor_absoluteX="166dp"
-            tools:layout_editor_absoluteY="247dp" />
-        <TextView
-            android:id="@+id/textView18"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:padding="10dp"
-            android:text="همراه اول"
-            android:textColor="#14E9F7"
-            android:textSize="20dp"
-            android:textStyle="bold"
-            tools:layout_editor_absoluteX="184dp"
-            tools:layout_editor_absoluteY="266dp" />
+
+            <RadioButton
+                android:id="@+id/hamrahaval"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="همراه اول"
+                android:textColor="#14E9F7"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+            <RadioButton
+                android:id="@+id/irancel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="true"
+                android:text="ایرانسل"
+                android:textColor="#14E9F7"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+
+        </RadioGroup>
+
         <ImageView
             android:id="@+id/imageView30"
-            android:layout_width="90dp"
-            android:layout_height="80dp"
+            android:layout_width="59dp"
+            android:layout_height="58dp"
             app:srcCompat="@drawable/hjjj"
-            tools:layout_editor_absoluteX="292dp"
-            tools:layout_editor_absoluteY="250dp" />
-        <RadioButton
-            android:id="@+id/raitel"
-            android:layout_width="233dp"
-            android:layout_height="83dp"
-            tools:layout_editor_absoluteX="166dp"
-            tools:layout_editor_absoluteY="348dp" />
-        <TextView
-            android:id="@+id/textView19"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:padding="10dp"
-            android:text="رایتل"
-            android:textColor="#14EBF9"
-            android:textSize="20dp"
-            android:textStyle="bold"
-            tools:layout_editor_absoluteX="184dp"
-            tools:layout_editor_absoluteY="366dp" />
+            tools:layout_editor_absoluteX="215dp"
+            tools:layout_editor_absoluteY="264dp" />
+
         <ImageView
             android:id="@+id/imageView31"
-            android:layout_width="70dp"
-            android:layout_height="75dp"
+            android:layout_width="55dp"
+            android:layout_height="58dp"
             app:srcCompat="@drawable/hfdsr"
-            tools:layout_editor_absoluteX="301dp"
-            tools:layout_editor_absoluteY="348dp" />
+            tools:layout_editor_absoluteX="215dp"
+            tools:layout_editor_absoluteY="206dp" />
+
+        <ImageView
+            android:id="@+id/imageView26"
+            android:layout_width="59dp"
+            android:layout_height="57dp"
+            app:srcCompat="@drawable/mumu"
+            tools:layout_editor_absoluteX="215dp"
+            tools:layout_editor_absoluteY="322dp" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="124dp"
+            android:layout_height="129dp"
+            app:srcCompat="@drawable/tgfuyh"
+            tools:layout_editor_absoluteX="31dp"
+            tools:layout_editor_absoluteY="232dp" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 
@@ -231,11 +179,11 @@
         android:layout_width="37dp"
         android:layout_height="41dp"
         app:srcCompat="@drawable/fii"
-        tools:layout_editor_absoluteX="344dp"
-        tools:layout_editor_absoluteY="12dp" />
+        tools:layout_editor_absoluteX="322dp"
+        tools:layout_editor_absoluteY="16dp" />
 
     <EditText
-        android:id="@+id/editText"
+        android:id="@+id/editTextnum"
         android:layout_width="359dp"
         android:layout_height="58dp"
         android:layout_margin="10dp"
@@ -287,6 +235,7 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
+
 
 
     </androidx.constraintlayout.widget.ConstraintLayout>
