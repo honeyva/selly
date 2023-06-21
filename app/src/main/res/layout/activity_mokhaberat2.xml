@@ -133,7 +133,7 @@
             app:layout_constraintTop_toTopOf="parent" />
 
         <TextView
-            android:id="@+id/editText_m"
+            android:id="@+id/TextView_m"
             android:layout_width="359dp"
             android:layout_height="68dp"
             android:layout_margin="30dp"
@@ -146,12 +146,12 @@
             app:layout_constraintBottom_toTopOf="@+id/constraintLayout"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/editText_p"
+            app:layout_constraintTop_toBottomOf="@+id/TextView_p"
             app:layout_constraintVertical_bias="0.684"
             tools:ignore="MissingConstraints" />
 
         <TextView
-            android:id="@+id/editText_p"
+            android:id="@+id/TextView_p"
             android:layout_width="359dp"
             android:layout_height="68dp"
             android:background="@drawable/car_background"
@@ -172,7 +172,7 @@
             android:textColor="@color/white"
             android:textSize="20dp"
             android:layout_margin="20dp"
-            app:layout_constraintBottom_toTopOf="@+id/editText_p"
+            app:layout_constraintBottom_toTopOf="@+id/TextView_p"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent" />
 
@@ -185,7 +185,7 @@
 
             android:textColor="@color/white"
             android:textSize="20dp"
-            app:layout_constraintBottom_toTopOf="@+id/editText_m"
+            app:layout_constraintBottom_toTopOf="@+id/TextView_m"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent" />
     </androidx.constraintlayout.widget.ConstraintLayout>
